@@ -1,4 +1,3 @@
-
 import numpy as np
 import os
 import cv2
@@ -10,4 +9,3 @@ classes = ["background", "aeroplane", "bicycle", "bird", "boat",
 
 colors = np.random.uniform(0, 255, size=(len(classes), 3))
 net = cv2.dnn.readNetFromCaffe("MobileNetSSD_deploy.prototxt","MobileNetSSD_deploy.caffemodel")
-
